@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { getTest } from '../db.js'
+import { getTest } from '../api.js'
 
 function App() {
   useEffect(() => {

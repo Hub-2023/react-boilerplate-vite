@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { appId, apiKey } from './dot.env'
+import { appId, apiKey } from '../env.js'
 
 export async function getTest() {
   return await axios.post(
